@@ -38,6 +38,12 @@
   margin: 0 auto;
   border: 1px solid @blue1;
   border-radius: 20px;
+  transition: 0.3s ease;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 10px 10px @blue1;
+  }
 
   @media (min-width: 768px) {
     max-width: 300px;
@@ -99,6 +105,10 @@
 
 .promotions__subtitle--kitchen2 {
   margin-bottom: 0;
+}
+
+.promotions__subtitle--modular-kitchen {
+  margin-bottom: 3px;
 }
 
 .promotions__description {
