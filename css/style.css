@@ -144,6 +144,9 @@ a {
     margin: 0 0 57px 0;
   }
 }
+.promotions__list--kitchen2 {
+  gap: 32px 26px;
+}
 .promotions__item {
   max-width: 280px;
   margin: 0 auto;
@@ -209,6 +212,9 @@ a {
   line-height: 24px;
   margin-bottom: 9px;
 }
+.promotions__subtitle--kitchen2 {
+  margin-bottom: 0;
+}
 .promotions__description {
   font-size: 14px;
   line-height: 21px;
@@ -271,6 +277,11 @@ a {
 }
 .guarantee .article ul {
   padding: 0;
+}
+.kitchen__info {
+  min-height: 42px;
+  margin: 0;
+  padding: 0 10px 19px 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
