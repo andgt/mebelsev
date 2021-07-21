@@ -1,0 +1,128 @@
+.promotions {
+  margin: 0;
+  padding: 22px 20px 43px 20px;
+
+  @media (min-width: 1400px) {
+    padding: 22px 118px 43px 46px;
+  }
+}
+
+.promotions__list {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  margin: 0 0 30px 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    margin: 0 0 40px 0;
+  }
+
+  @media (min-width: 1400px) {
+    grid-template-columns: 452px 452px 452px;
+    gap: 21px 26px;
+    margin: 0 0 57px 0;
+  }
+}
+
+.promotions__item {
+  max-width: 280px;
+  margin: 0 auto;
+  border: 1px solid @blue1;
+  border-radius: 20px;
+
+  @media (min-width: 768px) {
+    max-width: 300px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 452px;
+  }
+}
+
+.promotions__img-link {
+  display: block;
+  min-height: 151px;
+  margin-bottom: 22px;
+
+  @media (min-width: 768px) {
+    min-height: 161px;
+  }
+
+  @media (min-width: 1400px) {
+    min-height: 243px;
+  }
+}
+
+.promotions__img {
+  display: block;
+  width: 280px;
+  height: 151px;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    width: 300px;
+    height: 161px;
+  }
+
+  @media (min-width: 1400px) {
+    width: 452px;
+    height: 243px;
+  }
+}
+
+.promotions__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 23px 19px 16px;
+}
+
+.promotions__info {
+  min-height: 71px;
+  margin-bottom: 17px;
+}
+
+.promotions__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+
+.promotions__description {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promotions__link {
+  position: relative;
+  font-size: 14px;
+  line-height: 21px;
+  align-self: flex-end;
+  color: @blue;
+  transition: 0.3s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: @blue;
+    opacity: 0.6;
+  }
+
+  &:hover,
+  &:focus {
+    color: @black;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
