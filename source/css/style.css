@@ -152,6 +152,11 @@ a {
   margin: 0 auto;
   border: 1px solid #e9f4fa;
   border-radius: 20px;
+  transition: 0.3s ease;
+}
+.promotions__item:hover,
+.promotions__item:focus {
+  box-shadow: 0 0 10px 10px #e9f4fa;
 }
 @media (min-width: 768px) {
   .promotions__item {
@@ -214,6 +219,9 @@ a {
 }
 .promotions__subtitle--kitchen2 {
   margin-bottom: 0;
+}
+.promotions__subtitle--modular-kitchen {
+  margin-bottom: 3px;
 }
 .promotions__description {
   font-size: 14px;
@@ -282,6 +290,13 @@ a {
   min-height: 42px;
   margin: 0;
   padding: 0 10px 19px 17px;
+}
+.kitchen__info--modular {
+  padding-bottom: 17px;
+}
+.kitchen__modular-count {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 /*# sourceMappingURL=style.css.map */
