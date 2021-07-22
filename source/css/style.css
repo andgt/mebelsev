@@ -19,6 +19,9 @@ a {
 .page-title--delivery {
   margin-bottom: 22px;
 }
+.page-title--assembly {
+  margin-bottom: 16px;
+}
 .form.form__guarantee {
   padding: 25px 15px 25px 15px;
   background-color: #f7f8f9;
@@ -275,6 +278,11 @@ a {
 .guarantee__wrapper .article {
   margin-bottom: 60px;
 }
+@media (max-width: 767px) {
+  .guarantee .article {
+    padding-right: 12%;
+  }
+}
 .guarantee .article li {
   margin-bottom: 10px;
 }
@@ -338,6 +346,28 @@ a {
 }
 .delivery li p {
   margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .assembly {
+    padding-bottom: 67px;
+  }
+}
+.assembly p {
+  margin-bottom: 37px;
+}
+.assembly p:last-of-type {
+  margin-bottom: 0;
+}
+.assembly .article ul {
+  margin-bottom: 37px;
+}
+.assembly .article li {
+  padding-right: 40px;
+}
+@media (min-width: 768px) {
+  .assembly .article {
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
