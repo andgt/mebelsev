@@ -16,6 +16,9 @@ a {
 .page-title--guarantee {
   margin-bottom: 39px;
 }
+.page-title--delivery {
+  margin-bottom: 22px;
+}
 .form.form__guarantee {
   padding: 25px 15px 25px 15px;
   background-color: #f7f8f9;
@@ -297,6 +300,44 @@ a {
 .kitchen__modular-count {
   font-size: 14px;
   line-height: 21px;
+}
+.delivery {
+  padding-right: 139px;
+  padding-bottom: 68px;
+}
+.delivery .guarantee__wrapper {
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+}
+.delivery .article {
+  margin-bottom: 0;
+}
+.delivery .article section {
+  margin-bottom: 35px;
+}
+.delivery .article section:last-of-type {
+  margin-bottom: 0;
+}
+.delivery table {
+  width: 95%;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .delivery table {
+    width: 61.84486373%;
+  }
+}
+.delivery ol {
+  padding-bottom: 22px;
+}
+.delivery table + p {
+  margin-bottom: 30px;
+}
+.delivery h2 + p {
+  margin-bottom: 24px;
+}
+.delivery li p {
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
